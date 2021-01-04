@@ -1,6 +1,14 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0px;
+}
+p{
+    color: dimgray;
+    
+}
 h1{
     font-size: 50px;
-    font-family: 'Noto Sans JP', sans-serif;
+    
 }
 .name-highlight{
 color: orange;
@@ -16,4 +24,27 @@ color: orange;
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(45deg,lightSalmon,Tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
